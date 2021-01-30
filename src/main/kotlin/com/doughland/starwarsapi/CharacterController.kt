@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController
 class CharacterController {
 
     @GetMapping("api/v1/characters")
-    fun getCharacterInfo(): String {
-        return "Starwars character info coming soon ..."
+    fun getCharacterInfo() {
+        print("***Received starwars-api request***")
     }
 }
